@@ -299,28 +299,8 @@ restaurant-cuisine {
 
 /* ====================== Media Queries ====================== */
 
-@media (min-width: 640px) and (max-width: 980px){
-  #restaurants-list li {
-    max-width: 42%;
-  }
-  #restaurants-list li h1 {
-    height: 35px;
-  }
-}
-
-
 
 @media (min-width: 980px) {
-  #restaurants-list li {
-    max-width: 30%;
-  }
-  #restaurants-list p {
-    width: 66%;
-  }  
-  #restaurants-list li h1 {
-    height: 41px;
-  }
-
   .inside header {
     position: fixed;
     top: 0;
