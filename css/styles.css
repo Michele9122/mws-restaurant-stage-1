@@ -69,7 +69,7 @@ nav h1 a {
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
-    background-color: #eee;
+    background-color: #F2F2F2;
     font-size: 17px;
     margin: 0;
     /* width: calc(50% - 80px);*/
@@ -153,7 +153,7 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 40px 30px 25px;
   text-align: left;
   /*vedere se togliere
   da sistemare lista ristonranti
@@ -208,7 +208,7 @@ nav h1 a {
 .inside #map-container {
   position: relative;
   width: 100%;
-  height: 270px;
+  height: 300px;
 }
 .inside #map {
   background-color: #ccc;
@@ -224,7 +224,7 @@ nav h1 a {
   font-size: 20pt;
   font-weight: 200;
   letter-spacing: 0;
-  margin: 15px 0 30px;
+  margin: 30px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
   text-align: center;
@@ -241,7 +241,7 @@ nav h1 a {
   color: #fff;
   font-size: 12pt;
   font-weight: 300;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
   margin: 0 0 20px;
   padding: 2px 0;
   text-align: center;
@@ -251,7 +251,6 @@ nav h1 a {
 #restaurant-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 40px 30px;
 }
 
 #reviews-container {
@@ -318,14 +317,12 @@ nav h1 a {
 }
 
 /* ====================== Media Queries ====================== */
-
-
 @media (min-width: 980px) {
   .inside header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 10;
   }
   .inside #map-container {
     height: 88%;
@@ -334,19 +331,21 @@ nav h1 a {
     top: 80px;
     width: 50%;
   }
-  #breadcrumb {
-    width: calc(50% - 80px);
+  .inside #footer {
+    bottom: 0;
+    position: absolute;
+    width: 46%;
   }
   #restaurant-img {
     width: 90%;
   }
   #restaurant-container {
     width: 45%;
-    padding: 140px 40px 30px;
+    padding: 120px 25px 30px 40px;
   }
   #reviews-container {
-    width: 45%;
-    padding: 40px 30px;
+    width: 46%;
+    padding: 40px 40px;
   }
   #restaurant-cuisine {
     width: 90%;
@@ -354,9 +353,8 @@ nav h1 a {
   #reviews-list li {
     width: 85%;
   }
-  .inside #footer {
-    bottom: 0;
-    position: absolute;
-    width: 45%;
+  
+  #breadcrumb {
+    width: 40%;
   }
 }
