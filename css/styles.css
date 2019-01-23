@@ -154,9 +154,6 @@ nav h1 a {
   min-height: 380px;
   padding: 40px 30px 25px;
   text-align: left;
-  /*vedere se togliere
-  da sistemare lista ristonranti
-  */
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -267,11 +264,6 @@ nav h1 a {
   font-size: 24pt;
   font-weight: 300;
   padding-bottom: 1pt;
-}
-
-#reviews-list {
-  margin: 0;
-  padding: 0;
 }
 
 #reviews-list li {
